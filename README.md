@@ -635,3 +635,39 @@ The following are documented gaps. Contributions welcome.
 | `nature-methods` | Deep-dive Methods writing assistant — reproducibility checklist, forbidden phrases, ethical approval templates, supplementary organisation | Medium |
 | `nature-cover` | Cover letter drafting — hook paragraph, significance framing, fit-to-journal argument, ≤ 500-word limit | Medium |
 | `nature-review` | Writing a literature review or review article in *Nature Reviews* style — synthesis vs. summary, argument-led structure | Low |
+
+
+
+## ☕ 如果内容对你有帮助，欢迎随缘支持一下
+
+<div align="center">
+
+<img width="1320" alt="赞赏码横版" src="https://github.com/user-attachments/assets/0484300a-95e8-4cb3-ad73-478ba9bd19d6" />
+
+</div>
+
+---
+
+<div align="center">
+
+| 微信赞赏 | 支付宝赞赏 |
+| --- | --- |
+| <img width="320" alt="微信赞赏" src="https://github.com/user-attachments/assets/83c101e7-2370-46e9-a840-cb506df98cf4" /> | <img width="320" alt="支付宝赞赏" src="https://github.com/user-attachments/assets/0484300a-95e8-4cb3-ad73-478ba9bd19d6" /> |
+
+</div>
+
+### 💬 想说的话
+
+项目会长期免费维护，大家正常使用就好。  
+很多朋友还是学生党，所以完全不需要有任何“必须打赏”的压力。
+
+如果这些内容刚好帮你节省了一些时间、解决了一点问题，  
+又恰好想请作者喝杯咖啡，那我会非常开心 ☕  
+
+你的支持会用于：
+
+- 持续更新内容
+- 服务器与工具费用
+- 熬夜写文档时的续命奶茶（认真）
+
+无论是否赞赏，都非常感谢你的关注与支持 ❤️
