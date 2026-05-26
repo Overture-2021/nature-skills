@@ -8,8 +8,7 @@ Hello everyone, I’m Yuan Yizhe, a PhD student at Shanghai Jiao Tong University
   <tr>
     <td width="34%" valign="top" align="center" style="border: none; background-color: #f9f9f9; padding: 20px; border-radius: 8px;">
       <span style="font-size: 14px; color: #666;">微信群聊</span><br>
-
-      <img src="https://github.com/user-attachments/assets/9736549d-50bb-473a-a818-19a8ef9306af" width="100%" style="max-width:160px; margin-top:15px; border: 1px solid #eee;">
+      <img src="https://github.com/user-attachments/assets/eff065cd-e854-4d16-af40-fbc99129afb4" width="100%" style="max-width:160px; margin-top:15px; border: 1px solid #eee;">
       <div style="margin-top:10px; font-size: 13px; color: #666;">答疑交流群！进群记得12小时内备注</div>
     </td>
     <td width="66%" valign="top" style="border: none; line-height: 1.6;">
