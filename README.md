@@ -130,10 +130,28 @@ a longer walkthrough, see [`install.md`](install.md).
 
 ### 2. Claude Code
 
-Claude Code does not consume Codex skill folders directly. The recommended
-Claude Code setup is a thin subagent or slash-command wrapper that points to a
-stable clone of this repository, so supporting files such as `references/`,
-`static/`, assets, scripts, and `skills/_shared/` remain available.
+**Claude Code plugin marketplace installation**
+
+This repository also includes Claude Code plugin metadata at
+`.claude-plugin/`, so Claude Code users can install the complete Nature Skills
+bundle directly as a plugin instead of setting up wrappers first.
+
+CLI installation:
+
+```bash
+claude plugin marketplace add Yuan1z0825/nature-skills
+claude plugin install nature-skills@nature-skills
+```
+
+If the plugin does not appear immediately, refresh the plugin page or start a
+new Claude Code session.
+
+**Alternative: wrapper/subagent installation**
+
+Claude Code can also use a thin subagent or slash-command wrapper that points
+to a stable clone of this repository, so supporting files such as
+`references/`, `static/`, assets, scripts, and `skills/_shared/` remain
+available.
 
 ```bash
 mkdir -p ~/ai-skills
