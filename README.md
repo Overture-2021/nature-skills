@@ -16,6 +16,10 @@ TOP AI CREW 顶尖AI人才联盟正式招募！
       <b>个人微信</b><br>
       <img width="400" alt="个人微信" src="https://github.com/user-attachments/assets/9e2931fb-748b-418e-97ab-0515d191633d" />
     </td>
+    <td align="center">
+      <b>个人简介</b><br>
+      <img width="400" alt="个人简介" src="https://github.com/user-attachments/assets/4930665b-ce34-4dd1-a02a-fb03b3673046" />
+    </td>
   </tr>
 </table>
 
