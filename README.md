@@ -5,6 +5,15 @@
 * 面向全球AI学者收录通用科研skill，nature-skills是skill期刊的雏形，不以讲故事假大空的科研为目标，这里只在乎能否真正解决领域问题！
 * 知识星球名称：Nature Skills以及背后的哲学！
 
+## 主要贡献者
+
+* **袁一哲**：`nature-skills` 创立者。
+* **马昕瑞**：本项目第二贡献者，现为东南大学土木工程学院博士研究生，主要专注于深度学习，以及使用 agent 在结构设计领域开展研究。
+  * GitHub: [Travisma2233](https://github.com/Travisma2233)
+  * Email: [travisma2233@gmail.com](mailto:travisma2233@gmail.com)
+  * Google Scholar: [Xin-Rui Ma](https://scholar.google.com/citations?user=CDydADoAAAAJ&hl=en)
+  * ResearchGate: [Xin-Rui Ma](https://www.researchgate.net/profile/Xin-Rui-Ma?ev=hdr_xprf)
+
 
 # 自己的一些浅薄观点
 * 最近发现，我设计的Nature-skills被谷歌DeepMind关注并借鉴，他们参考了其中的引用体系、脚本思路以及技能设计哲学，推出了Science-skills。说实话，这让我挺欣慰的——当国外的顶尖AI机构开始从我们的工作中汲取灵感时，说明中国开发者的原创思想正在被世界看见。这不是被复制的失落，而是中国力量在开源土壤里生根后，自然向外生长出的影响力。
