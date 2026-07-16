@@ -371,7 +371,19 @@ git clone https://github.com/Yuan1z0825/nature-skills.git ~/.codex/.nature-skill
 
 更新日志位于 `~/.local/state/nature-skills/autoupdate.log`。拉取到的新技能通常在下一次会话中完整生效。
 
-### 目录结构
+### 其他 agent 场景
+
+OpenClaw、OpenCode、Hermes 的具体接入方式见 [OpenClaw / OpenCode / Hermes 接入教程](docs/open-source-agent-frameworks.md)。
+
+用于其他 agent 时，建议保留一个稳定的仓库 clone，再创建轻量 subagent、slash command 或 custom prompt wrapper，指向真实的 `skills/*/SKILL.md`，并保留 `skills/nature-shared/`。
+
+手动或其他 agent 使用时：
+
+1. 将完整技能目录复制到你的 prompt library 或项目中。
+2. 保留 `SKILL.md`、`manifest.yaml`、`static/`、`references/`、脚本、资产和需要的 `skills/nature-shared/` 文件。
+3. 如目标 agent 有自己的格式要求，可调整 frontmatter 和正文结构。
+
+## 目录结构
 
 ```text
 skills/
@@ -391,22 +403,6 @@ skills/
     ├── templates/...
     └── references/...
 ```
-
-### 其他 agent 场景
-
-OpenClaw、OpenCode、Hermes 的具体接入方式见 [OpenClaw / OpenCode / Hermes 接入教程](docs/open-source-agent-frameworks.md)。
-
-用于其他 agent 时，建议保留一个稳定的仓库 clone，再创建轻量 subagent、slash command 或 custom prompt wrapper，指向真实的 `skills/*/SKILL.md`，并保留 `skills/nature-shared/`。
-
-手动或其他 agent 使用时：
-
-1. 将完整技能目录复制到你的 prompt library 或项目中。
-2. 保留 `SKILL.md`、`manifest.yaml`、`static/`、`references/`、脚本、资产和需要的 `skills/nature-shared/` 文件。
-3. 如目标 agent 有自己的格式要求，可调整 frontmatter 和正文结构。
-
-## Star 历史
-
-[![Star History Chart](assets/star-history.svg?v=20260715T1629Z)](https://star-history.com/#Yuan1z0825/nature-skills&Date)
 
 ## 技能索引
 
@@ -567,3 +563,7 @@ description: >-
 | `Stable` | 已在真实学术内容上验证，规则相对稳定 |
 
 ---
+
+## Star 历史
+
+[![Star History Chart](assets/star-history.svg?v=20260715T1629Z)](https://star-history.com/#Yuan1z0825/nature-skills&Date)

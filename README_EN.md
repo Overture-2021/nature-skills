@@ -452,7 +452,23 @@ when an update cannot be fetched.
 Logs are written to `~/.local/state/nature-skills/autoupdate.log`. Newly fetched
 skills normally take full effect in the next session.
 
-### Directory Layout
+### Other Agent Scenarios
+
+For OpenClaw, OpenCode, and Hermes, see the dedicated [integration guide](docs/open-source-agent-frameworks_EN.md).
+
+For other agents, keep a stable repository clone and create a lightweight
+subagent, slash command, or custom prompt wrapper that points to the real
+`skills/*/SKILL.md` files. Preserve `skills/nature-shared/`.
+
+For manual or other-agent use:
+
+1. Copy complete skill directories into your prompt library or project.
+2. Preserve `SKILL.md`, `manifest.yaml`, `static/`, `references/`, scripts,
+   assets, and required `skills/nature-shared/` files.
+3. If the target agent has its own format requirements, adjust the frontmatter
+   and body structure.
+
+## Directory Layout
 
 ```text
 skills/
@@ -472,26 +488,6 @@ skills/
     ├── templates/...
     └── references/...
 ```
-
-### Other Agent Scenarios
-
-For OpenClaw, OpenCode, and Hermes, see the dedicated [integration guide](docs/open-source-agent-frameworks_EN.md).
-
-For other agents, keep a stable repository clone and create a lightweight
-subagent, slash command, or custom prompt wrapper that points to the real
-`skills/*/SKILL.md` files. Preserve `skills/nature-shared/`.
-
-For manual or other-agent use:
-
-1. Copy complete skill directories into your prompt library or project.
-2. Preserve `SKILL.md`, `manifest.yaml`, `static/`, `references/`, scripts,
-   assets, and required `skills/nature-shared/` files.
-3. If the target agent has its own format requirements, adjust the frontmatter
-   and body structure.
-
-## Star History
-
-[![Star History Chart](assets/star-history.svg?v=20260715T1629Z)](https://star-history.com/#Yuan1z0825/nature-skills&Date)
 
 ## Skill Index
 
@@ -661,3 +657,7 @@ After adding a skill, update the [Skill Index](#skill-index) table:
 | `Stable` | Validated on real academic content and relatively stable |
 
 ---
+
+## Star History
+
+[![Star History Chart](assets/star-history.svg?v=20260715T1629Z)](https://star-history.com/#Yuan1z0825/nature-skills&Date)
