@@ -378,7 +378,7 @@ For manual or other-agent use:
 
 ## Star History
 
-[![Star History Chart](assets/star-history.svg)](https://star-history.com/#Yuan1z0825/nature-skills&Date)
+[![Star History Chart](assets/star-history.svg?v=20260715T1629Z)](https://star-history.com/#Yuan1z0825/nature-skills&Date)
 
 ## Skill Index
 
