@@ -31,7 +31,9 @@
 * 仓库自营：
 * 专注做ChatGPT Plus/Pro代充/成品号平台，提供正规发票     https://apiciyuan.top/cat/3
 * 客服微信：naturegpt888（咨询/发票）   https://apiciyuan.top/cat/3
-<img width="1414" height="1112" alt="image" src="https://github.com/user-attachments/assets/4f4e5a57-311d-4472-bc5d-bedaa78dbbb2" />
+* 
+  <img width="325" height="256" alt="image" src="https://github.com/user-attachments/assets/0c7bc267-cedb-4c54-bdb5-a3b9a6a51848" />
+
 
 ## 目录
 
