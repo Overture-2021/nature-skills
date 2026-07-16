@@ -4,89 +4,54 @@
   </p>
   <p>
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-2ea44f"></a>
-    <a href="#installation"><img alt="Install" src="https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827"></a>
-    <a href="#skill-index"><img alt="Skills" src="https://img.shields.io/badge/skills-17-0ea5e9"></a>
+    <a href="#5-installation"><img alt="Install" src="https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827"></a>
+    <a href="#6-skill-index"><img alt="Skills" src="https://img.shields.io/badge/skills-17-0ea5e9"></a>
     <a href="README.md"><img alt="Language" src="https://img.shields.io/badge/language-English%20%7C%20中文-1f6feb"></a>
   </p>
   <p>
-    <a href="#installation">Install</a>
-    · <a href="#quick-start">Quick Start</a>
-    · <a href="#skill-index">Skill Index</a>
+    <a href="#5-installation">Install</a>
+    · <a href="#4-quick-start">Quick Start</a>
+    · <a href="#6-skill-index">Skill Index</a>
     · <a href="docs/open-source-agent-frameworks_EN.md">Other Install</a>
-    · <a href="#shared-design-principles">Design Principles</a>
-    · <a href="#adding-a-skill">Contributing</a>
+    · <a href="#7-contribution-and-development">Contributing</a>
     · <a href="README.md">中文</a>
   </p>
 </div>
 
 ---
 
-- Hello everyone, I am Yizhe Yuan, the founder of `nature-skills`. Thank you for
-  following this project. We have published many video tutorials on Douyin; you
-  can search by topic name to find them, and I sincerely hope they help you.
-- If you have a concrete need, please open an issue. If we think the request is
-  meaningful and feasible, we will try to move it forward. Pull requests are also
-  welcome; please follow the contribution format later in this document so that
-  reviews, understanding, and merges can be handled efficiently. Please also
-  record a matching usage tutorial for each PR.
-- `nature-skills` collects general-purpose research skills for AI scholars
-  worldwide. It is an early form of a "skill journal": the goal is not empty
-  storytelling, but solving real domain problems.
-- Knowledge Planet: `Nature Skills` and the philosophy behind it.
-<img width="300" height="400" alt="1591" src="https://github.com/user-attachments/assets/64e37909-0a48-4bfb-8471-c2aff971a0f6" />
+`nature-skills` collects reusable research skills for AI scholars worldwide, with an emphasis on real problem solving, verifiable workflows, and research outputs that can be used directly.
 
-## Table of Contents
+## 1. Project Founder and Operations
 
-- [Quick Start](#quick-start)
-- [Main Contributors](#main-contributors)
-- [Some Personal Views](#some-personal-views)
-- [Installation](#installation)
-  - [npx skills Installation](#npx-skills-installation)
-  - [Claude Code Installation](#claude-code-installation)
-  - [Codex Installation](#codex-installation)
-  - [Other Agent Scenarios](#other-agent-scenarios)
-- [Directory Layout](#directory-layout)
-- [Skill Index](#skill-index)
-- [Shared Design Principles](#shared-design-principles)
-- [Adding a Skill](#adding-a-skill)
-- [Star History](#star-history)
+### 1.1 Founder Introduction
 
-## Quick Start
+Hello, I am Yizhe Yuan, the founder of `nature-skills`. Thank you for following this project. We have published many video tutorials on Douyin; search by topic name to find them, and I sincerely hope they help with real research work.
 
-After installation, you can give the agent a paper, paragraph, reviewer letter,
-or task description directly. These prompts are ready to copy:
+### 1.2 Knowledge Planet
 
-| Goal | Prompt |
-| --- | --- |
-| Read a paper / bilingual reader | `Turn this PDF into a figure-aware Chinese-English Markdown reader.` |
-| Generate a paper presentation | `Create a Chinese journal-club PPT from this paper, keeping key figures and source labels.` |
-| Polish or translate a manuscript paragraph | `Rewrite this Chinese paragraph into Nature-style academic English without changing the meaning.` |
-| Draft an abstract, introduction, or discussion | `Using these results and figures, draft a Nature-style abstract and introduction.` |
-| Simulate pre-submission review | `Evaluate this manuscript from a Nature reviewer perspective and produce three reviewer reports.` |
-| Respond to reviewer comments | `Use this revision email to draft point-by-point replies, a cover letter, and redline locations for the revised manuscript.` |
-| Search literature, strict citations, and citer profiles | `Create a table with this paper's citation count, strict external citation count, DOI, and whether major scholars or Fellows cited it.` |
-| Create scientific figures or schematics | `Use this method and result description to draft a publication-ready scientific figure or manuscript schematic.` |
+Knowledge Planet name: **Nature Skills and the Philosophy Behind It**.
 
-If you are unsure which skill to use, describe the task naturally. If you already
-know the skill name, explicitly say "use `nature-reader`" or "use
-`nature-response`" in the prompt.
+<img width="300" height="400" alt="Nature Skills Knowledge Planet" src="https://github.com/user-attachments/assets/64e37909-0a48-4bfb-8471-c2aff971a0f6" />
 
-## Main Contributors
+### 1.3 Repository Store
 
-- **Yizhe Yuan**: founder of `nature-skills`.
-- **Xin-Rui Ma**: second contributor, PhD student at the School of Civil
-  Engineering, Southeast University, focusing on deep learning and agent-assisted
-  research for structural design.
-  - GitHub: [Travisma2233](https://github.com/Travisma2233)
-  - Email: [travisma2233@gmail.com](mailto:travisma2233@gmail.com)
-  - Google Scholar: [Xin-Rui Ma](https://scholar.google.com/citations?user=CDydADoAAAAJ&hl=en)
-  - ResearchGate: [Xin-Rui Ma](https://www.researchgate.net/profile/Xin-Rui-Ma?ev=hdr_xprf)
-- **Bin Hu**: third contributor to the project and currently a master's student
-  at the School of Agriculture and Biology, Shanghai Jiao Tong University.
-  - GitHub: [Flyme886](https://github.com/Flyme886)
-  - Email: [mhoang12205@gmail.com](mailto:mhoang12205@gmail.com)
+- **Services**: ChatGPT Plus/Pro top-ups and ready-made accounts, with official invoices and optional warranty coverage at checkout.
+- **Service page**: [https://apiciyuan.top/cat/3](https://apiciyuan.top/cat/3)
+- **Customer-service WeChat**: `naturegpt888` (consultation / invoices)
 
-## Some Personal Views
+<img width="325" height="256" alt="ChatGPT Plus and Pro services" src="https://github.com/user-attachments/assets/0c7bc267-cedb-4c54-bdb5-a3b9a6a51848" />
+
+## 2. Core Developers
+
+| Developer | Project Role | Main Focus and Contributions | Profiles and Contact |
+|---|---|---|---|
+| **Yizhe Yuan** | Founder / Maintainer | Project initiation, skill-system design, and community operations | — |
+| **Bin Hu** | Major Contributor | Agentic agents and AI for Science | [GitHub](https://github.com/Flyme886) · [Email](mailto:mhoang12205@gmail.com) |
+
+## 3. Project Philosophy and Community
+
+### 3.1 Some Personal Views
 
 - Recently, I noticed that the Nature Skills design has drawn attention from
   Google DeepMind and has been referenced by them. They drew on its citation
@@ -114,6 +79,8 @@ know the skill name, explicitly say "use `nature-reader`" or "use
 - In practice, almost every useful tool can be distilled into a standardized
   process, and standardized processes can be packaged as reusable skills.
 
+### 3.2 Tutorials and Community
+
 <table>
   <tr>
     <td align="center">
@@ -126,21 +93,54 @@ know the skill name, explicitly say "use `nature-reader`" or "use
     </td>
     <td align="center">
       <b>Yuan's personal WeChat</b><br>
-      <img width="300" alt="personal wechat" src="https://github.com/user-attachments/assets/88e6b293-bda3-4094-94f9-aff4aa5a8842" />
+      <img width="300" alt="personal WeChat" src="https://github.com/user-attachments/assets/88e6b293-bda3-4094-94f9-aff4aa5a8842" />
     </td>
   </tr>
 </table>
 
----
+## Table of Contents
 
-## Installation
+- [1. Project Founder and Operations](#1-project-founder-and-operations)
+- [2. Core Developers](#2-core-developers)
+- [3. Project Philosophy and Community](#3-project-philosophy-and-community)
+- [4. Quick Start](#4-quick-start)
+- [5. Installation](#5-installation)
+  - [5.1 `npx skills` Installation](#51-npx-skills-installation)
+  - [5.2 Claude Code Installation](#52-claude-code-installation)
+  - [5.3 Codex Installation](#53-codex-installation)
+  - [5.4 Other Agent Scenarios](#54-other-agent-scenarios)
+- [6. Skill Index](#6-skill-index)
+- [7. Contribution and Development](#7-contribution-and-development)
+- [8. Star History](#8-star-history)
+
+## 4. Quick Start
+
+After installation, you can give the agent a paper, paragraph, reviewer letter,
+or task description directly. These prompts are ready to copy:
+
+| Goal | Prompt |
+| --- | --- |
+| Read a paper / bilingual reader | `Turn this PDF into a figure-aware Chinese-English Markdown reader.` |
+| Generate a paper presentation | `Create a Chinese journal-club PPT from this paper, keeping key figures and source labels.` |
+| Polish or translate a manuscript paragraph | `Rewrite this Chinese paragraph into Nature-style academic English without changing the meaning.` |
+| Draft an abstract, introduction, or discussion | `Using these results and figures, draft a Nature-style abstract and introduction.` |
+| Simulate pre-submission review | `Evaluate this manuscript from a Nature reviewer perspective and produce three reviewer reports.` |
+| Respond to reviewer comments | `Use this revision email to draft point-by-point replies, a cover letter, and redline locations for the revised manuscript.` |
+| Search literature, strict citations, and citer profiles | `Create a table with this paper's citation count, strict external citation count, DOI, and whether major scholars or Fellows cited it.` |
+| Create scientific figures or schematics | `Use this method and result description to draft a publication-ready scientific figure or manuscript schematic.` |
+
+If you are unsure which skill to use, describe the task naturally. If you already
+know the skill name, explicitly say "use `nature-reader`" or "use
+`nature-response`" in the prompt.
+
+## 5. Installation
 
 `nature-skills` is a collection of reusable skill packages organized around
 `SKILL.md`. Each top-level skill directory under `skills/` is an installable unit,
 such as `nature-*`; `nature-shared` is an installable support package read by
 other skills.
 
-### npx skills Installation
+### 5.1 `npx skills` Installation
 
 Install [Node.js 18 or later](https://nodejs.org/) first. The CLI does not need
 to be installed globally. List the skill names available in this repository:
@@ -195,7 +195,7 @@ Pass the frontmatter name displayed by `--list` to `--skill`; for example, the
 `npx skills` manages skill files only. Optional Python, R, browser, and MCP
 runtime dependencies still need the separate setup described below.
 
-### Claude Code Installation
+### 5.2 Claude Code Installation
 
 Claude Code cannot use `scripts/update-codex-skills.sh` directly because that
 script only syncs skills into Codex's `~/.codex/skills/`. For Claude Code, keep a
@@ -272,7 +272,7 @@ git pull
 As long as the wrapper still points to this stable clone path, no repeated file
 copy is needed.
 
-#### Auto-Update (Optional)
+**Auto-Update (Optional)**
 
 If you want Claude Code to pull upstream updates automatically on every session
 start, use `scripts/autoupdate-skills.sh` together with a `SessionStart` hook.
@@ -334,7 +334,7 @@ The destination and check interval are both configurable:
 ~/ai-skills/nature-skills/scripts/autoupdate-skills.sh --throttle 3600
 ```
 
-### Codex Installation
+### 5.3 Codex Installation
 
 Use the repository script to install or update Codex skills. It syncs every
 top-level skill directory under `skills/` and verifies the copied contents with
@@ -420,7 +420,7 @@ Create a Chinese PPT deck from this paper.
 
 For OpenClaw, OpenCode, Hermes, and other open-source agent frameworks, see the [OpenClaw / OpenCode / Hermes integration guide](docs/open-source-agent-frameworks_EN.md).
 
-#### Auto-Update (Optional)
+**Auto-Update (Optional)**
 
 Codex supports a global `SessionStart` hook. With a dedicated clone, it can check
 for updates whenever a Codex session starts or resumes and sync new versions into
@@ -467,7 +467,7 @@ when an update cannot be fetched.
 Logs are written to `~/.local/state/nature-skills/autoupdate.log`. Newly fetched
 skills normally take full effect in the next session.
 
-### Other Agent Scenarios
+### 5.4 Other Agent Scenarios
 
 For OpenClaw, OpenCode, and Hermes, see the dedicated [integration guide](docs/open-source-agent-frameworks_EN.md).
 
@@ -483,28 +483,7 @@ For manual or other-agent use:
 3. If the target agent has its own format requirements, adjust the frontmatter
    and body structure.
 
-## Directory Layout
-
-```text
-skills/
-├── nature-shared/              # keep this when skills reference ../nature-shared
-├── nature-<topic>/
-│   ├── README.md
-│   ├── README_EN.md
-│   ├── SKILL.md
-│   ├── manifest.yaml     # present in router-style skills
-│   ├── static/           # present in router-style skills
-│   └── references/...
-└── nature-proposal-writer/
-    ├── README.md
-    ├── README_EN.md
-    ├── SKILL.md
-    ├── scripts/...
-    ├── templates/...
-    └── references/...
-```
-
-## Skill Index
+## 6. Skill Index
 
 The current `skills/` directory contains the following triggerable skills.
 `skills/nature-shared/` is shared content and is not counted in the skill index. Click a skill name or the "Details" link to open its dedicated documentation page.
@@ -529,9 +508,9 @@ The current `skills/` directory contains the following triggerable skills.
 | [`nature-experiment-log`](skills/nature-experiment-log/README_EN.md) | Draft | Standardize experiment images, voice, and text into Obsidian experiment logs with YAML frontmatter and archived source materials | "experiment log", "record experiment", "Obsidian vault", "Feishu research group" | [Details](skills/nature-experiment-log/README_EN.md) |
 | [`nature-proposal-writer`](skills/nature-proposal-writer/README_EN.md) | Beta | Proposal-first research writing state machine: establish evidence, argument, and section contracts before drafting or reviewing text | "researchwrite", "proposal", "opening report", "research plan", "research writing QA" | [Details](skills/nature-proposal-writer/README_EN.md) |
 
----
+## 7. Contribution and Development
 
-## Shared Design Principles
+### 7.1 Shared Design Principles
 
 1. **Prefer primary sources**: rules should be grounded in published Nature
    content, official journal guidance, or explicit local sources rather than
@@ -545,19 +524,38 @@ The current `skills/` directory contains the following triggerable skills.
 5. **Keep skills extensible**: each skill should be self-contained, and adding a
    new skill should not require modifying existing skills.
 
----
+### 7.2 Repository Layout
 
-## Adding a Skill
+```text
+skills/
+├── nature-shared/              # keep this when skills reference ../nature-shared
+├── nature-<topic>/
+│   ├── README.md
+│   ├── README_EN.md
+│   ├── SKILL.md
+│   ├── manifest.yaml     # present in router-style skills
+│   ├── static/           # present in router-style skills
+│   └── references/...
+└── nature-proposal-writer/
+    ├── README.md
+    ├── README_EN.md
+    ├── SKILL.md
+    ├── scripts/...
+    ├── templates/...
+    └── references/...
+```
+
+### 7.3 Adding a Skill
 
 When adding a skill to this repository, follow this process.
 
-### 1. Create Directory
+**1. Create the skill directory**
 
 ```text
 skills/nature-<topic>/
 ```
 
-### 2. Minimum Files
+**2. Add required files**
 
 | File | Required | Purpose |
 |---|---:|---|
@@ -566,7 +564,7 @@ skills/nature-<topic>/
 | `README_EN.md` | Yes | English documentation paired with the Chinese details page |
 | `references/*.md` | Recommended for complex skills | Modular rule files, API references, design theory, tutorials, chart types, and similar material |
 
-### 3. README Writing Rules
+**3. Write the Chinese and English READMEs**
 
 Every new skill must include both `README.md` and `README_EN.md`. The README is a human-facing entry page, not a duplicate of `SKILL.md` and not an installation manual. Its job is to help users decide within 30 seconds whether the skill fits their task, what they need to provide, what it will output, and where its boundaries are.
 
@@ -637,14 +635,14 @@ for d in skills/nature-*; do
 done
 ```
 
-### 4. Record a Usage Tutorial
+**4. Record a usage tutorial**
 
 When submitting a PR, please also record a short usage tutorial explaining what
 problem the skill solves, how to trigger it, what inputs it needs, and what
 outputs it produces. Add the video, screencast link, or public tutorial URL to
 the PR description.
 
-### 5. `SKILL.md` Frontmatter Template
+**5. Configure `SKILL.md` frontmatter**
 
 ```yaml
 ---
@@ -655,15 +653,15 @@ description: >-
 ---
 ```
 
-### 6. Update Skill Index
+**6. Update the skill index**
 
-After adding a skill, update the [Skill Index](#skill-index) table:
+After adding a skill, update the [Skill Index](#6-skill-index) table:
 
 ```markdown
 | [`nature-<topic>`](skills/nature-<topic>/README_EN.md) | Draft / Stable | One-sentence purpose | Trigger terms | [Details](skills/nature-<topic>/README_EN.md) |
 ```
 
-### 7. Status Labels
+**7. Set the status label**
 
 | Status | Meaning |
 |---|---|
@@ -673,6 +671,6 @@ After adding a skill, update the [Skill Index](#skill-index) table:
 
 ---
 
-## Star History
+## 8. Star History
 
 [![Star History Chart](assets/star-history.svg?v=20260715T1629Z)](https://star-history.com/#Yuan1z0825/nature-skills&Date)

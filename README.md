@@ -4,31 +4,37 @@
   </p>
   <p>
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-Apache--2.0-2ea44f"></a>
-    <a href="#安装"><img alt="Install" src="https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827"></a>
-    <a href="#技能索引"><img alt="Skills" src="https://img.shields.io/badge/skills-17-0ea5e9"></a>
+    <a href="#5-安装"><img alt="Install" src="https://img.shields.io/badge/install-Claude%20Code%20%7C%20Codex%20%7C%20OpenClaw%20%7C%20OpenCode%20%7C%20Hermes-111827"></a>
+    <a href="#6-技能索引"><img alt="Skills" src="https://img.shields.io/badge/skills-17-0ea5e9"></a>
     <a href="README_EN.md"><img alt="Language" src="https://img.shields.io/badge/language-中文%20%7C%20English-1f6feb"></a>
   </p>
   <p>
-    <a href="#安装">立即安装</a>
-    · <a href="#快速开始">快速开始</a>
-    · <a href="#技能索引">技能索引</a>
+    <a href="#5-安装">立即安装</a>
+    · <a href="#4-快速开始">快速开始</a>
+    · <a href="#6-技能索引">技能索引</a>
     · <a href="docs/open-source-agent-frameworks.md">其他安装</a>
-    · <a href="#共享设计原则">设计原则</a>
-    · <a href="#新增技能">贡献方式</a>
+    · <a href="#7-贡献与开发">贡献方式</a>
     · <a href="README_EN.md">English</a>
   </p>
 </div>
 
 ---
 
-* 大家好，我是 nature skills 的创立者袁一哲。感谢大家持续关注 `nature-skills`。我们在抖音更新了很多视频教程，大家可以根据名称检索查看，希望真心能够帮助到大家。
-* 如果你有任何需求，欢迎提交 issue；如果我们认为该需求有意义且可行，会尽量推进实现。我们也欢迎 PR，但请按照本文后面的贡献格式提交，并录制配套使用教程，方便更高效地审核、理解与合并。
-* 面向全球AI学者收录通用科研skill，nature-skills是skill期刊的雏形，不以讲故事假大空的科研为目标，这里只在乎能否真正解决领域问题！
-* 知识星球名称：Nature Skills以及背后的哲学！
+`nature-skills` 面向全球 AI 学者收录可复用科研技能，强调真实问题解决、可验证工作流与可直接使用的科研产物。
+
+## 1. 项目发起人与运营信息
+
+### 1.1 创始人介绍
+
+大家好，我是 `nature-skills` 的创立者袁一哲。感谢大家持续关注本项目。我们在抖音更新了许多视频教程，大家可以根据名称检索查看，希望能够真正帮助到科研工作。
+
+### 1.2 知识星球
+
+知识星球名称：**Nature Skills 以及背后的哲学**。
 
 <img width="300" height="400" alt="Nature Skills 知识星球" src="https://github.com/user-attachments/assets/64e37909-0a48-4bfb-8471-c2aff971a0f6" />
 
-## 仓库自营
+### 1.3 仓库自营
 
 - **服务内容**：ChatGPT Plus/Pro 代充与成品号服务，支持正规发票，并可在下单时选择稳定质保服务。
 - **服务入口**：[https://apiciyuan.top/cat/3](https://apiciyuan.top/cat/3)
@@ -36,28 +42,62 @@
 
 <img width="325" height="256" alt="ChatGPT Plus/Pro 服务" src="https://github.com/user-attachments/assets/0c7bc267-cedb-4c54-bdb5-a3b9a6a51848" />
 
+## 2. 主要开发者
+
+| 开发者 | 项目角色 | 主要方向与贡献 | 主页与联系 |
+|---|---|---|---|
+| **袁一哲** | 创始人 / 维护者 | 项目发起、技能体系设计与社区运营 | — |
+| **胡彬** | 主要贡献者 | Agentic Agent 与 AI for Science | [GitHub](https://github.com/Flyme886) · [Email](mailto:mhoang12205@gmail.com) |
+
+## 3. 项目理念与社区
+
+### 3.1 自己的一些浅薄观点
+
+- 最近发现，我设计的 Nature Skills 被谷歌 DeepMind 关注并借鉴，他们参考了其中的引用体系、脚本思路以及技能设计哲学，推出了 Science Skills。说实话，这让我挺欣慰的——当国外的顶尖 AI 机构开始从我们的工作中汲取灵感时，说明中国开发者的原创思想正在被世界看见。这不是被复制的失落，而是中国力量在开源土壤里生根后，自然向外生长出的影响力。
+- 我们设计 Skills 的重心，从来不是要求每个人都来啃透这套思想，而是这套思想本身就具备被机器理解并复用的能力。你如果想创立一个全新的 Skill，或者把它适配到自己的专属领域，根本不需要从头学起——直接把 Nature Skills 的 GitHub 地址发给 Codex，它就能自动学习其中的设计精髓，帮你完成新 Skill 的创建和修改。这才是思想的真正解放：它不再依赖口口相传，而是通过 AI 直接流淌进每一个需要它的角落。
+- Nature Skills 真正的价值，或许并不在于那些具体的技能模块，而在于它悄悄推开了一扇新的大门——它让很多人第一次意识到，原来可以借助 Codex 或智能体来操控本地电脑做科研。我有幸见证并陪伴了许多人完成科研范式的转变。当他们惊叹“原来科研还可以这样去做”的那一刻，这种认知上的破壁和解放，远比 Skills 本身更让我觉得有意义。它不是一个工具的成功，而是一种新的思考方式开始在人群中蔓延。
+- 在当下，几乎所有实用的工具都可以被提炼为标准化流程，而标准化流程恰好可以封装成可复用技能。
+
+### 3.2 视频教程与社区
+
+<table>
+  <tr>
+    <td align="center">
+      <b>视频教程请关注抖音</b><br>
+      <img width="300" alt="抖音视频教程" src="https://github.com/user-attachments/assets/37d4b0b6-3d22-4492-bb01-c0d9bae5a9e0" />
+    </td>
+    <td align="center">
+      <b>Agent 科研交流群</b><br>
+      <img width="300" alt="Agent 科研交流群" src="https://github.com/user-attachments/assets/28d1886a-69be-46bc-a1cb-777d7510ddab" />
+    </td>
+    <td align="center">
+      <b>袁博个人微信</b><br>
+      <img width="300" alt="袁博个人微信" src="https://github.com/user-attachments/assets/88e6b293-bda3-4094-94f9-aff4aa5a8842" />
+    </td>
+  </tr>
+</table>
+
 ## 目录
 
-- [快速开始](#快速开始)
-- [主要贡献者](#主要贡献者)
-- [自己的一些浅薄观点](#自己的一些浅薄观点)
-- [安装](#安装)
-  - [npx skills 安装方式](#npx-skills-安装方式)
-  - [Claude Code 安装方式](#claude-code-安装方式)
-  - [Codex 安装方式](#codex-安装方式)
-  - [其他 agent 场景](#其他-agent-场景)
-- [目录结构](#目录结构)
-- [技能索引](#技能索引)
-- [共享设计原则](#共享设计原则)
-- [新增技能](#新增技能)
-- [Star 历史](#star-历史)
+- [1. 项目发起人与运营信息](#1-项目发起人与运营信息)
+- [2. 主要开发者](#2-主要开发者)
+- [3. 项目理念与社区](#3-项目理念与社区)
+- [4. 快速开始](#4-快速开始)
+- [5. 安装](#5-安装)
+  - [5.1 `npx skills` 安装方式](#51-npx-skills-安装方式)
+  - [5.2 Claude Code 安装方式](#52-claude-code-安装方式)
+  - [5.3 Codex 安装方式](#53-codex-安装方式)
+  - [5.4 其他 Agent 场景](#54-其他-agent-场景)
+- [6. 技能索引](#6-技能索引)
+- [7. 贡献与开发](#7-贡献与开发)
+- [8. Star 历史](#8-star-历史)
 
-## 快速开始
+## 4. 快速开始
 
-安装完成后，可以直接把论文、段落、审稿意见或任务描述交给 agent。下面这些提示词可以直接复制使用：
+安装完成后，可以直接把论文、段落、审稿意见或任务描述交给 Agent。下面这些提示词可以直接复制使用：
 
 | 想做什么 | 直接这样说 |
-| --- | --- |
+|---|---|
 | 读论文 / 中英文对照 | `把这篇 PDF 做成图文对应的中英文对照 Markdown reader。` |
 | 生成文献汇报 PPT | `把这篇论文做成中文组会汇报 PPT，保留关键图件和来源标注。` |
 | 润色或翻译论文段落 | `把这段中文改写成 Nature 风格英文，保持学术含义不变。` |
@@ -67,51 +107,13 @@
 | 查文献、他引和引用者画像 | `整理这篇文章的引用数、严格他引数、DOI，并看引用者里有没有院士、Fellow 或领域大牛。` |
 | 做科研图或论文示意图 | `根据这段方法和结果，帮我生成投稿级科研图或论文示意图草稿。` |
 
-如果你不确定该用哪个技能，直接描述任务即可；如果你已经知道技能名，可以在提示词里明确写“使用 `nature-reader`”或“使用 `nature-response`”。
+如果你不确定该用哪个技能，直接描述任务即可；如果已经知道技能名，可以在提示词中明确写“使用 `nature-reader`”或“使用 `nature-response`”。
 
-## 主要贡献者
-
-* **袁一哲**：`nature-skills` 创立者。
-* **马昕瑞**：本项目第二贡献者，现为东南大学土木工程学院博士研究生，主要专注于深度学习，以及使用 agent 在结构设计领域开展研究。
-  * GitHub: [Travisma2233](https://github.com/Travisma2233)
-  * Email: [travisma2233@gmail.com](mailto:travisma2233@gmail.com)
-  * Google Scholar: [Xin-Rui Ma](https://scholar.google.com/citations?user=CDydADoAAAAJ&hl=en)
-  * ResearchGate: [Xin-Rui Ma](https://www.researchgate.net/profile/Xin-Rui-Ma?ev=hdr_xprf)
-* **胡彬**：项目第三贡献者，现为上海交通大学农业与生物学院硕士研究生，目前专注于Agentic agent和AI for science.
-  * GitHub: [Flyme886](https://github.com/Flyme886)
-  * Email: [mhoang12205@gmail.com](mailto:mhoang12205@gmail.com)
-
-
-## 自己的一些浅薄观点
-* 最近发现，我设计的Nature-skills被谷歌DeepMind关注并借鉴，他们参考了其中的引用体系、脚本思路以及技能设计哲学，推出了Science-skills。说实话，这让我挺欣慰的——当国外的顶尖AI机构开始从我们的工作中汲取灵感时，说明中国开发者的原创思想正在被世界看见。这不是被复制的失落，而是中国力量在开源土壤里生根后，自然向外生长出的影响力。
-* 我们设计Skills的重心，从来不是要求每个人都来啃透这套思想，而是这套思想本身就具备被机器理解并复用的能力。你如果想创立一个全新的Skill，或者把它适配到自己的专属领域，根本不需要从头学起——直接把Nature-Skills的GitHub地址发给Codex，它就能自动学习其中的设计精髓，帮你完成新Skill的创建和修改。这才是思想的真正解放：它不再依赖口口相传，而是通过AI直接流淌进每一个需要它的角落。
-* Nature-Skills真正的价值，或许并不在于那些具体的技能模块，而在于它悄悄推开了一扇新的大门——它让很多人第一次意识到，原来可以借助Codex或智能体来操控本地电脑做科研。我有幸见证并陪伴了许多人完成了科研范式的转变，当他们惊叹‘原来科研还可以这样去做’的那一刻，这种认知上的破壁和解放，远比Skills本身更让我觉得有意义。它不是一个工具的成功，而是一种新的思考方式开始在人群中蔓延。
-* 在当下，几乎所有实用的工具，都可以被提炼为标准化的流程，而标准化的流程，恰好就能封装成可复用的技能。
-
-<table>
-  <tr>
-    <td align="center">
-      <b>视频教程请关注抖音</b><br>
-      <img width="300" alt="635611d42c5739d8a98ea08eec010d30" src="https://github.com/user-attachments/assets/37d4b0b6-3d22-4492-bb01-c0d9bae5a9e0" />
-    </td>
-    <td align="center">
-      <b>Agent科研交流群</b><br>
-      <img width="300" alt="Agent科研交流群" src="https://github.com/user-attachments/assets/28d1886a-69be-46bc-a1cb-777d7510ddab" />
-    </td>
-    <td align="center">
-      <b>袁博个人微信</b><br>
-      <img width="300" alt="个人微信" src="https://github.com/user-attachments/assets/88e6b293-bda3-4094-94f9-aff4aa5a8842" />
-    </td>
-  </tr>
-</table>
-
----
-
-## 安装
+## 5. 安装
 
 `nature-skills` 是一组围绕 `SKILL.md` 组织的可复用技能包。`skills/` 下的每个顶层技能目录都是一个可安装单元，例如 `nature-*`；`nature-shared` 是供其他技能读取的共享支持包。
 
-### npx skills 安装方式
+### 5.1 `npx skills` 安装方式
 
 需要先安装 [Node.js 18 或更高版本](https://nodejs.org/)。无需全局安装 CLI；先查看仓库中可安装的技能名：
 
@@ -160,7 +162,7 @@ npx skills update --project --yes
 
 技能选择参数使用 `--list` 显示的 frontmatter 名称；例如目录 `nature-proposal-writer` 当前显示为 `researchwrite`。`npx skills` 管理的是技能文件，Python、R、浏览器或 MCP 等可选运行依赖仍需按下文说明单独配置。
 
-### Claude Code 安装方式
+### 5.2 Claude Code 安装方式
 
 Claude Code 不能直接使用 `scripts/update-codex-skills.sh`，因为这个脚本只负责同步到 Codex 的 `~/.codex/skills/`。用于 Claude Code 时，推荐保留一个稳定的本地 clone，再用 subagent 或 slash command 指向真实的 `skills/*/SKILL.md`。这样不会破坏技能目录结构，也能继续读取 `references/`、`static/`、`manifest.yaml`、脚本、资产和 `skills/nature-shared/`。
 
@@ -228,7 +230,7 @@ git pull
 
 只要 wrapper 仍然指向这个稳定 clone 路径，就不需要重复复制技能文件。
 
-#### 自动更新（可选）
+**自动更新（可选）**
 
 如果你希望 Claude Code 每次开启会话时自动拉取上游更新，可以用 `scripts/autoupdate-skills.sh` 配合一个 `SessionStart` 钩子。
 
@@ -279,7 +281,7 @@ git clone https://github.com/Yuan1z0825/nature-skills.git ~/ai-skills/nature-ski
 ~/ai-skills/nature-skills/scripts/autoupdate-skills.sh --throttle 3600
 ```
 
-### Codex 安装方式
+### 5.3 Codex 安装方式
 
 推荐使用仓库自带脚本安装或更新 Codex skills。脚本会同步 `skills/` 下所有顶层技能目录，并在复制后做 `diff` 验证；它不会覆盖其他无关 Codex skills。
 
@@ -356,7 +358,7 @@ python -m pip install -r skills/nature-academic-search/mcp-server/requirements.t
 
 如果你使用 OpenClaw、OpenCode、Hermes 等开源 agent / 编程框架，请看 [OpenClaw / OpenCode / Hermes 接入教程](docs/open-source-agent-frameworks.md)。
 
-#### 自动更新（可选）
+**自动更新（可选）**
 
 Codex 支持全局 `SessionStart` hook。保留一个专用 clone 后，可以在每次启动或恢复 Codex 会话时检查更新，并把新版同步到 `~/.codex/skills/`。
 
@@ -395,7 +397,7 @@ git clone https://github.com/Yuan1z0825/nature-skills.git ~/.codex/.nature-skill
 
 更新日志位于 `~/.local/state/nature-skills/autoupdate.log`。拉取到的新技能通常在下一次会话中完整生效。
 
-### 其他 agent 场景
+### 5.4 其他 Agent 场景
 
 OpenClaw、OpenCode、Hermes 的具体接入方式见 [OpenClaw / OpenCode / Hermes 接入教程](docs/open-source-agent-frameworks.md)。
 
@@ -407,28 +409,7 @@ OpenClaw、OpenCode、Hermes 的具体接入方式见 [OpenClaw / OpenCode / Her
 2. 保留 `SKILL.md`、`manifest.yaml`、`static/`、`references/`、脚本、资产和需要的 `skills/nature-shared/` 文件。
 3. 如目标 agent 有自己的格式要求，可调整 frontmatter 和正文结构。
 
-## 目录结构
-
-```text
-skills/
-├── nature-shared/              # 当技能引用 ../nature-shared 时需要保留
-├── nature-<topic>/
-│   ├── README.md
-│   ├── README_EN.md
-│   ├── SKILL.md
-│   ├── manifest.yaml     # router-style 技能会包含
-│   ├── static/           # router-style 技能会包含
-│   └── references/...
-└── nature-proposal-writer/
-    ├── README.md
-    ├── README_EN.md
-    ├── SKILL.md
-    ├── scripts/...
-    ├── templates/...
-    └── references/...
-```
-
-## 技能索引
+## 6. 技能索引
 
 当前 `skills/` 下包含以下可触发技能；`skills/nature-shared/` 是共享内容目录，不计入技能索引。点击技能名或“详情页”可以进入每个 skill 的单独说明页面。
 
@@ -452,9 +433,9 @@ skills/
 | [`nature-experiment-log`](skills/nature-experiment-log/README.md) | Draft | 标准化记录实验图片、语音和文字材料，生成带 YAML frontmatter 的 Obsidian 实验日志并归档原始材料 | “实验日志”, “记录实验”, “experiment log”, “Obsidian vault”, “飞书科研群” | [详情](skills/nature-experiment-log/README.md) |
 | [`nature-proposal-writer`](skills/nature-proposal-writer/README.md) | Beta | proposal-first 科研写作状态机，先建立证据、论证和章节契约，再起草或审查文本 | “researchwrite”, “proposal”, “开题报告”, “研究方案”, “科研写作 QA” | [详情](skills/nature-proposal-writer/README.md) |
 
----
+## 7. 贡献与开发
 
-## 共享设计原则
+### 7.1 共享设计原则
 
 所有技能都遵守以下原则：
 
@@ -464,19 +445,38 @@ skills/
 4. **输出优先**：每个技能都应返回能直接使用的产物，例如可粘贴文本、`.svg`、`.pptx`、`.docx` 或具体建议。
 5. **可扩展**：每个技能自包含在自己的目录中，新增技能不应要求修改既有技能。
 
----
+### 7.2 仓库目录结构
 
-## 新增技能
+```text
+skills/
+├── nature-shared/              # 当技能引用 ../nature-shared 时需要保留
+├── nature-<topic>/
+│   ├── README.md
+│   ├── README_EN.md
+│   ├── SKILL.md
+│   ├── manifest.yaml     # router-style 技能会包含
+│   ├── static/           # router-style 技能会包含
+│   └── references/...
+└── nature-proposal-writer/
+    ├── README.md
+    ├── README_EN.md
+    ├── SKILL.md
+    ├── scripts/...
+    ├── templates/...
+    └── references/...
+```
+
+### 7.3 新增技能流程
 
 向本仓库添加技能时，请按以下流程：
 
-### 1. 创建目录
+**1. 创建技能目录**
 
 ```text
 skills/nature-<topic>/
 ```
 
-### 2. 最低文件要求
+**2. 添加必需文件**
 
 | 文件 | 是否必需 | 用途 |
 |------|----------|------|
@@ -485,7 +485,7 @@ skills/nature-<topic>/
 | `README_EN.md` | 必需 | 与中文详情页配套的英文说明文档 |
 | `references/*.md` | 复杂技能推荐 | 模块化规则文件，例如 API、设计理论、教程、图表类型等 |
 
-### 3. README 写作规则
+**3. 编写中英文 README**
 
 每个新增技能都必须同时提供 `README.md` 和 `README_EN.md`。README 是面向人的技能入口页，不是 `SKILL.md` 的重复版，也不是安装手册。它的目标是让用户在 30 秒内判断：这个 skill 能不能解决我的问题、我要给它什么、它会产出什么、边界在哪里。
 
@@ -556,11 +556,11 @@ for d in skills/nature-*; do
 done
 ```
 
-### 4. 录制使用教程
+**4. 录制使用教程**
 
 提交 PR 时，请同时录制一个简短的使用教程，说明这个 skill 解决什么问题、如何触发、需要什么输入，以及会产出什么结果。可以在 PR 描述中附上视频、录屏链接或可公开访问的教程地址。
 
-### 5. `SKILL.md` frontmatter 模板
+**5. 配置 `SKILL.md` frontmatter**
 
 ```yaml
 ---
@@ -570,15 +570,15 @@ description: >-
 ---
 ```
 
-### 6. 更新技能索引
+**6. 更新技能索引**
 
-在上方 [技能索引](#技能索引) 表格中添加一行：
+在上方 [技能索引](#6-技能索引) 表格中添加一行：
 
 ```markdown
 | [`nature-<topic>`](skills/nature-<topic>/README.md) | Draft / Stable | 一句话用途 | 触发词 | [详情](skills/nature-<topic>/README.md) |
 ```
 
-### 7. 状态标签
+**7. 设置状态标签**
 
 | 标签 | 含义 |
 |-------|------|
@@ -588,6 +588,6 @@ description: >-
 
 ---
 
-## Star 历史
+## 8. Star 历史
 
 [![Star History Chart](assets/star-history.svg?v=20260715T1629Z)](https://star-history.com/#Yuan1z0825/nature-skills&Date)
