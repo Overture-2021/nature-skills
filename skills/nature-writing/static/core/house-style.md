@@ -53,9 +53,8 @@ requirement of accuracy, evidence, safety, or ethics, that requirement wins.
 
 - Give the central method, system, router, or artifact a proper name and refer to
   it by that name everywhere, not by a rotating generic descriptor ("the routed
-  policy", "our approach"). Introduce the name once, then reuse it.
-- Reuse the canonical term for every recurring object (see the Terminology Ledger).
-  Do not let a second phrasing of a locked term reappear.
+  policy", "our approach"). Introduce the name once, then reuse it (point 8 covers
+  term-level consistency).
 
 ## 6. Choose the precise verb
 
@@ -73,3 +72,17 @@ requirement of accuracy, evidence, safety, or ethics, that requirement wins.
 - Cut in-group jargon and ornamental phrasing that adds no precision (e.g.
   "a fortiori", "deployed greedy headline"). If a term is load-bearing, define it
   once in plain language; otherwise replace it.
+
+## 8. Keep terminology consistent across the whole paper
+
+- Lock one canonical term for each recurring concept, method, model, dataset,
+  metric, and symbol (see the Terminology Ledger), and use it uniformly across the
+  entire paper — main text, appendix, tables, and figure captions alike. Do not let
+  a second phrasing of a locked term reappear.
+- When you rename or redefine a term, propagate the change everywhere in the same
+  pass; leave no old variant behind. A term introduced in one section must read the
+  same in every later reference to it.
+- Sweep for two failure modes and fix them uniformly: the same object referred to
+  two different ways, and one name or symbol reused for two different objects
+  (de-conflate the second — give one a distinguishing subscript or a new name).
+  Consistency across figures and captions matters as much as in the prose.
