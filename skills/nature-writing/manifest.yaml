@@ -13,6 +13,7 @@ always_load:
   - ../nature-shared/core/terminology-ledger.md
   # Skill-local core
   - static/core/stance.md
+  - static/core/house-style.md
   - static/core/workflow.md
   - static/core/output-format.md
 

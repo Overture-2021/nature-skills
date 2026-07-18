@@ -29,3 +29,7 @@ Identify before writing:
 - **terminology**: on first contact with the material, extract the recurring methods, models, datasets, metrics, abbreviations, and notation into a Terminology Ledger and reuse the canonical forms across every section (see `../../../nature-shared/core/terminology-ledger.md`)
 
 If any of `core claim`, `evidence`, or `boundary` is absent, or the framing is ambiguous, run the **confirmation gate** in `workflow.md` (step 3b) before drafting the full section: echo back your one-sentence argument and key assumptions, ask at most 2–3 targeted questions, and wait for the user. A wrong assumed premise surfaced only in the final notes wastes the entire draft. If the user prefers to proceed without answering, you may still produce a scaffold with explicit placeholders.
+
+## House editing style
+
+Apply the authorial house style in `house-style.md` (loaded via manifest `always_load`) at every drafting and revision pass, alongside the claim discipline above: compress toward the argument, build it as an explicit chain, keep detailed numbers in Results, cut defensive scaffolding, name the central artifact and keep it fixed, choose the precise verb, and never let internal identifiers (experiment IDs, raw labels) reach the manuscript.
