@@ -27,6 +27,10 @@ requirement of accuracy, evidence, safety, or ethics, that requirement wins.
 - Foreground the question. In the introduction, pose the question the paper answers
   in plain words ("the natural question is: how do we ...?") before describing the
   approach, instead of sliding from gap to method implicitly.
+- Position each claim against the prior belief it extends or overturns. Frame a
+  contribution as a move from the established premise to the new one ("turning the
+  static premise that X into a dynamic prediction of Y"), so the reader sees how the
+  work builds on, and departs from, what the field already holds.
 
 ## 3. State the shape of the result up high; keep the numbers in Results
 
@@ -36,6 +40,10 @@ requirement of accuracy, evidence, safety, or ethics, that requirement wins.
   Results and tables.
 - The final introduction paragraph gives the contribution and the mechanism, not a
   recap of the measurements.
+- Captions carry the message the figure makes, not the data behind it. Keep seed
+  counts, per-cell statistics, confidence intervals, and step-by-step narration out
+  of captions; let the figure do the work and put the numbers in the panel, a table,
+  or an appendix. Say what the reader should conclude, once.
 
 ## 4. Advance the claim; cut defensive scaffolding
 
@@ -45,6 +53,10 @@ requirement of accuracy, evidence, safety, or ethics, that requirement wins.
   restatements of what the work does not claim. State each necessary boundary once,
   plainly, in Method, Discussion, or Limitations. This is the same instinct as the
   `anti-defensive-writing` pass; keep it on by default.
+- Do not avoid overclaiming by negating. "X does not do Y", "X cannot Z",
+  "detection holds regardless" read as defensive and often overclaim by implication.
+  Reach the honest scope by choosing a more accurate *positive* claim about what the
+  method does and where it holds — not by stacking up what it does not do.
 - Keep a caveat only when it changes how the claim is read or used — validity,
   interpretation, scope, design, safety, or ethics. Do not scatter it into the
   summary.
@@ -86,3 +98,62 @@ requirement of accuracy, evidence, safety, or ethics, that requirement wins.
   two different ways, and one name or symbol reused for two different objects
   (de-conflate the second — give one a distinguishing subscript or a new name).
   Consistency across figures and captions matters as much as in the prose.
+
+## 9. Write one idea per sentence
+
+- Break a sentence that chains several claims with semicolons or em-dashes into
+  separate sentences. A long multi-clause sentence that packs mechanism, evidence,
+  and qualification together is the single most common thing the author rewrites by
+  hand; if a sentence would earn a marginal note like "convoluted, simplify it", it
+  is already too dense. Split it.
+- A run of short declaratives beats one long periodic sentence. Prefer a period over
+  a semicolon whenever the two halves can each stand alone.
+
+## 10. Prefer natural phrasing over a repeated template
+
+- Write what a person would actually write, not a slot-filled frame. When the same
+  construction ("The <thing> is <property>.") recurs down a paragraph, vary the
+  openings and the sentence shapes. The target is prose that no longer reads as
+  generated from one template.
+
+## 11. Keep the claims mutually consistent
+
+- Adjacent and cross-section sentences must not contradict each other. When a
+  revision changes what a sentence asserts — what was varied, what was held fixed,
+  what a term denotes — re-read its neighbours and reconcile them in the same pass.
+  A fluent paragraph that says "we switched the reward" in one line and "only
+  difficulty changed" in the next is a defect even though each sentence reads well.
+- Disambiguate an overloaded word instead of leaving the reader to guess, and define
+  a term the first time it carries weight, not after it is already in use.
+
+## 12. Revise with the lightest touch; make no uncommanded change
+
+- This is the same discipline as `workflow.md` step 9, promoted to a standing house
+  rule. Change only what was asked or flagged; keep the author's wording, ordering,
+  and sentence structure verbatim everywhere else. Do not restore parallelism,
+  re-polish a settled sentence, reflow a paragraph, or "improve" untouched text on
+  your own initiative — an uncommanded edit gets reverted.
+- When a change beyond the explicit ask seems warranted, propose it and wait; do not
+  apply it silently. The author hand-writes the load-bearing sentences (title,
+  abstract, definitions, key framing) and expects them preserved unless they say
+  otherwise.
+
+## Working from the author's inline `<...>` directives
+
+The author edits by planting `<...>` notes directly in the source. Each is a task,
+not a comment to read past. They recur in a few kinds:
+
+- **Question** — "what about the other 2026 baselines?", "answer-matcher, is this
+  word even given before?" Answer it in the prose (add the case, define the term) or
+  surface that the material does not let you.
+- **Missing content** — "Qwen3 is missing here, add it where appropriate",
+  "fill in this blank". Supply it where it belongs.
+- **Objection to the writing** — "this sentence is too convoluted, simplify it".
+  Rewrite per points 9–12.
+- **Consistency catch** — "reconcile this — I think the word 'test' is ambiguous".
+  Fix the contradiction across the surrounding sentences (point 11).
+- **Explicit tool call** — "use /anti-defensive-writing to rewrite this sentence".
+  Apply that named pass to the marked span.
+
+Resolve every marker, delete it from the draft, and report per marker what you did.
+Never leave a marker in a delivered draft, and never silently drop one.
